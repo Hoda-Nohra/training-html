@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <Link rel="icon" href="OIP (1).jpeg" type="image"></link> 
+        <title>Practice page</title>
+    </head>
+    <body>
+        <h1>Training:</h1>
+        <nav>
+          <ol>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#image">Image</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#table">Form</a></li>
+        </ol>  
+        </nav>
+        <div id="table">
+        <h2 id="first chapter">Table</h2>
+        <table style="width:100%">
+            <caption>This is a table</caption>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>Hoda</td>
+                <td>24</td>
+                <td>Beirut</td>
+            </tr>
+            <tr>
+                <td>Alex</td>
+                <td>28</td>
+                <td>Dubai</td>
+            </tr>
+            <tr>
+                <td>Josi</td>
+                <td>28</td>
+                <td>Barcelona</td>
+            </tr>
+        </table>
+    </div>
+    <div id="second chapter">
+        <h2 id="image">Image</h2>
+        <p>This is an image</p>
+        <img src="OIP (2).jpeg" alt="dinner table" usemap="#dinnermap">
+        <map name="dinnermap">
+            <area target="_blank" title="Go to Mobilitop" href="https://www.mobilitop.com/" coords="0,246,378,0" shape="rect">
+            <area target="_blank" title="Go to Istikbal" href="https://aihom.com.lb/" coords="53,421,408,420,334,289,124,288" shape="poly">
+        </map>
+    </div>
+    <div id="third chapter">
+        <h2 id="video">Video</h2>
+        <p>This is a video</p>
+        <video src="animals.mp4" type="video/mp4"controls autoplay muted>
+        </video>
+    </div>
+    <div id="fourth chapter">
+        <h2 id="audio">Audio</h2>
+        <p>This is an audio</p>
+        <audio src="piano.mp3" controls></audio>
+    </div>
+    <div id="fifth chapter">
+        <h2 id="form">Form</h2>
+        <p>This is a form</p>
+        <form method="get" action="">
+            <fieldset>
+                <legend>Personal information</legend>
+                <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Hoda"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Nohra"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="someone@example.com" required><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="gender" name="gender" required>Female<br>
+            <input type="radio" id="gender" name="gender">Male<br>
+            <input type="radio" id="gender" name="gender">Other <input type="text"><br>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" name="age" max="100" min="12"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Travel destination</legend>
+                <label for="country">Country</label><br>
+                <input list="country">
+                <datalist id="country" name="country">
+                    <option value="Lebanon">Lebanon</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="France">France</option>
+                    <option value="Spain">Spain</option>
+                </datalist><br>
+                <label for="arrival">From</label>
+                <input type="date" id="arrival"><br>
+                <label for="departure">To</label>
+                <input type="date" id="departure"><br>
+            </fieldset><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+    </div>
+        <footer>
+          <address>
+            Made by Hoda Nohra.<br>
+            Visit me at:<br>
+            <a href="https://www.google.com/" target="_blank" title="Go to google.com">Google</a><br>
+            Contact me at: <br>
+            <a href="mailto:hoda.nohra@outlook.com">My email</a><br>
+            Beirut, Fanar<br>
+            Lebanon
+            </address>  
+        </footer>
+    </body>
+</html>
